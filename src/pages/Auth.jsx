@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import './Auth.css'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://levelup-backend-xz8s.onrender.com'
 
 function Auth({ mode = 'login', onNavigate, onAuthenticated }) {
   const [form, setForm] = useState({

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import Dashboard from './pages/Dashboard'
 import Auth from './pages/Auth'
 
-const API_URL = 'http://localhost:5000'
+const API_URL = 'https://levelup-backend-xz8s.onrender.com'
 
 function App() {
   const [page, setPage] = useState('login')
